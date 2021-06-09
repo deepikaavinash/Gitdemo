@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133535" started-at="2021-06-02T21:43:24 CEST" finished-at="2021-06-02T21:45:38 CEST">
+    <groups>
+    </groups>
+    <test name="Test validating navigationbar" duration-ms="75025" started-at="2021-06-02T21:43:24 CEST" finished-at="2021-06-02T21:44:39 CEST">
+      <class name="Falkenberg.testcases.tests.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Falkenberg.testcases.tests.ValidateNavigationBar@2ab4bc72]" name="initialize" is-config="true" duration-ms="59042" started-at="2021-06-02T21:43:24 CEST" finished-at="2021-06-02T21:44:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigationBar()[pri:0, instance:Falkenberg.testcases.tests.ValidateNavigationBar@2ab4bc72]" name="basePageNavigationBar" duration-ms="3680" started-at="2021-06-02T21:44:24 CEST" finished-at="2021-06-02T21:44:28 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Falkenberg.testcases.tests.ValidateNavigationBar@2ab4bc72]" name="tearDown" is-config="true" duration-ms="11604" started-at="2021-06-02T21:44:28 CEST" finished-at="2021-06-02T21:44:39 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Falkenberg.testcases.tests.ValidateNavigationBar -->
+    </test> <!-- Test validating navigationbar -->
+    <test name="Test validatingtitle" duration-ms="71437" started-at="2021-06-02T21:43:24 CEST" finished-at="2021-06-02T21:44:36 CEST">
+      <class name="Falkenberg.testcases.tests.ValidatTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Falkenberg.testcases.tests.ValidatTitle@30f842ca]" name="initialize" is-config="true" duration-ms="59501" started-at="2021-06-02T21:43:24 CEST" finished-at="2021-06-02T21:44:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageValidation()[pri:0, instance:Falkenberg.testcases.tests.ValidatTitle@30f842ca]" name="basePageValidation" duration-ms="545" started-at="2021-06-02T21:44:24 CEST" finished-at="2021-06-02T21:44:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Falkenberg.testcases.tests.ValidatTitle@30f842ca]" name="tearDown" is-config="true" duration-ms="11054" started-at="2021-06-02T21:44:25 CEST" finished-at="2021-06-02T21:44:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Falkenberg.testcases.tests.ValidatTitle -->
+    </test> <!-- Test validatingtitle -->
+    <test name="Test sinin or login" duration-ms="133529" started-at="2021-06-02T21:43:24 CEST" finished-at="2021-06-02T21:45:38 CEST">
+      <class name="Falkenberg.testcases.tests.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Falkenberg.testcases.tests.HomePage@79207381]" name="initialize" is-config="true" duration-ms="63573" started-at="2021-06-02T21:43:24 CEST" finished-at="2021-06-02T21:44:28 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Falkenberg.testcases.tests.HomePage@79207381]" name="basePageNavigation" duration-ms="38018" started-at="2021-06-02T21:44:28 CEST" data-provider="getData" finished-at="2021-06-02T21:45:06 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Falkenberg.testcases.tests.HomePage@79207381]" name="basePageNavigation" duration-ms="28296" started-at="2021-06-02T21:45:06 CEST" data-provider="getData" finished-at="2021-06-02T21:45:34 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Falkenberg.testcases.tests.HomePage@79207381]" name="tearDown" is-config="true" duration-ms="3577" started-at="2021-06-02T21:45:34 CEST" finished-at="2021-06-02T21:45:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Falkenberg.testcases.tests.HomePage -->
+    </test> <!-- Test sinin or login -->
+  </suite> <!-- Suite -->
+</testng-results>

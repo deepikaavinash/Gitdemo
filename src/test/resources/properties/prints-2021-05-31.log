@@ -1,0 +1,6 @@
+12:50:56.544 [main] INFO  Falkenberg.testcases.base.Base - entered 2st set of data
+12:51:07.639 [main] DEBUG Falkenberg.testcases.base.Base - url is opened again 
+12:51:13.421 [main] DEBUG Falkenberg.testcases.base.Base - login button is clicked
+12:51:13.426 [main] INFO  Falkenberg.testcases.base.Base - entered login page
+12:51:15.812 [main] INFO  Falkenberg.testcases.base.Base - submit button is clicked in login page
+12:51:27.325 [main] DEBUG Falkenberg.testcases.base.Base - url is opened again 

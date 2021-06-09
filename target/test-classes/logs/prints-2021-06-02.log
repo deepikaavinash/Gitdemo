@@ -1,0 +1,6 @@
+21:45:01.636 [TestNG-tests-3] DEBUG Falkenberg.testcases.base.Base - login button is clicked
+21:45:01.642 [TestNG-tests-3] INFO  Falkenberg.testcases.base.Base - entered login page
+21:45:03.155 [TestNG-tests-3] INFO  Falkenberg.testcases.base.Base - submit button is clicked in login page
+21:45:11.111 [TestNG-tests-3] DEBUG Falkenberg.testcases.base.Base - url is opened again 
+21:45:28.853 [TestNG-tests-3] DEBUG Falkenberg.testcases.base.Base - login button is clicked
+21:45:28.854 [TestNG-tests-3] INFO  Falkenberg.testcases.base.Base - entered login page

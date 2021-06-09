@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Falkenberg.testcases.base.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test validatingtitle(failed)">
+    <classes>
+      <class name="Falkenberg.testcases.tests.ValidatTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="basePageValidation"/>
+        </methods>
+      </class> <!-- Falkenberg.testcases.tests.ValidatTitle -->
+    </classes>
+  </test> <!-- Test validatingtitle(failed) -->
+  <test thread-count="5" parallel="tests" name="Test sinin or login(failed)">
+    <classes>
+      <class name="Falkenberg.testcases.tests.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Falkenberg.testcases.tests.HomePage -->
+    </classes>
+  </test> <!-- Test sinin or login(failed) -->
+</suite> <!-- Failed suite [Suite] -->
